@@ -123,3 +123,58 @@ while(count >= 15) {
     console.log(count);
     count = count - 1;
 }
+
+console.log("--------------------------");
+
+
+// Break Task 1.century
+for(let i = 1; i <= 200; i++) {
+    if(i === 100){
+        break;
+    }
+    console.log(i);
+}
+
+console.log("--------------------------");
+
+// break task 2.sum upto 100
+let nbr = 1;
+let sumation = 0;
+while(nbr <= 100) {
+    sumation = sumation + nbr;
+    if(sumation >= 100) {
+        break;
+    }
+    console.log(sumation);
+    nbr = nbr + 1;
+}
+
+console.log("--------------------------");
+
+// break task 3.square break
+for(let i = 1; i <= 100; i++) {
+    if(i === 4 || i === 9 || i === 16){
+        break;
+    }
+    console.log(i);
+}
+
+console.log("--------------------------");
+
+// continue task 1.skip odd
+for(let i = 0; i <= 40; i++) {
+    if(i % 2 === 1) {
+        continue;
+    }
+    console.log(i);
+}
+
+console.log("--------------------------");
+
+// continue task 2.skip-five
+for(let i = 55; i <= 85; i++) {
+    if(i % 2 === 0 || i % 5 === 0) {
+        continue;
+    }
+    console.log(i);
+}
