@@ -13,3 +13,10 @@ while(num <5) {
     console.log("looping", num);
     num = num + 1;
 }
+
+// decremental while
+let n = 10;
+while(n >= 0){
+    console.log(n);
+    n--;
+}
