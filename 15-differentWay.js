@@ -6,7 +6,7 @@ for(let i = 1; i <= 30; i++){
     }
 }
 
-console.log("---------")
+console.log("---------");
 
 // give the sum of number from 1 to 20 that are divisible by 3
 let total = 0;
