@@ -1,7 +1,7 @@
 // 17-Argument_VS_Parameter.js
 
 
-// here number is parameter
+// here number is a parameter
 function doubleIt (number) {
     const doubled = number * 2;
     console.log("Given Number:", number, "Doubled Value of This Number:", doubled);
@@ -11,8 +11,8 @@ doubleIt(5);
 doubleIt(56);
 
 // you also do like that
-const number = 50;
-doubleIt(number);
+const num= 50;
+doubleIt(num);
 
 // also like that
 function difference (num1, num2) {

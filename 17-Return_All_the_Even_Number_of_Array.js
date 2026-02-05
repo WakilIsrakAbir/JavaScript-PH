@@ -11,8 +11,8 @@ function evenNumbersOnly(numbers) {
     return evens;
 }
 const numbers = [5, 8, 91, 24, 6];
-const evens = evenNumbersOnly(numbers);
-console.log(evens);
+const evenNumber = evenNumbersOnly(numbers);
+console.log(evenNumber);
 
 console.log("-------------------------------------");
 
