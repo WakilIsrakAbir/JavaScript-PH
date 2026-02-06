@@ -70,3 +70,9 @@ function maxNumber(num1, num2, num3) {
 
 const maximum = maxNumber(12, 56, 45);
 console.log("Max number Between 3 Numbers is:", maximum);
+
+console.log("----------------------------------------");
+
+// sortcut
+const maxNum = Math.max(12, 44, 98, 64, 56);
+console.log("Max is:", maxNum);
