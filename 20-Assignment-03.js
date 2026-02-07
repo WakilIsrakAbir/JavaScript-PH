@@ -117,3 +117,44 @@ function gonoVote(array) {
 const arr = 12345
 const bijoy = gonoVote(arr);
 console.log(bijoy);
+
+
+
+
+// Problem-05
+
+function  analyzeText(str) {
+    // You have to write your code here
+    // console.log(str);
+    if(typeof str !== "string") {
+        return "Invalid";
+    }
+
+    const trimed = str.trim();
+    if(trimed.length === 0) {
+        return "Invalid";
+    }  
+    
+
+    let count = 0;
+    const textLength = str.length;
+    // console.log(textLength);
+    for(let len of str) {
+        if(len != " ") {
+            count++;
+        }
+    }
+
+
+    let longest = "";
+    const words = str.split(" ");
+    for(let long of words) {
+        if(long.length > longest.length) {
+            longest = long;
+        }
+    }
+    return {longwords: longest, token: count}
+}
+
+const text = analyzeText("");
+console.log(text);
